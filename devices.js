@@ -718,6 +718,13 @@ const devices = [
         extend: hue.light_onoff_brightness_colorxy,
     },
     {
+        zigbeeModel: ['LTP003'],
+        model: '4033930P7',
+        vendor: 'Philips',
+        description: 'Hue white ambiance suspension Fair',
+        extend: hue.light_onoff_brightness_colortemp,
+    },
+    {
         zigbeeModel: ['RWL020', 'RWL021'],
         model: '324131092621',
         vendor: 'Philips',
